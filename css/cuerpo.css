@@ -1,0 +1,476 @@
+.contenedorSingle
+{
+    float: left;
+    width: 764px;
+}
+.bannerOpc
+{
+    display: none;
+}
+.notaSencilla
+{
+    background-color: #fff;
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    float: left;
+    margin: 0px 0px 0px 30px;
+    overflow: hidden;
+    width: 726px;
+}
+.notaSencillaImg
+{
+    float: left;
+    height: 328px;
+    overflow: hidden;
+    margin: 0;
+    width: 728px;
+}
+.notaSencillaImg>img
+{
+    float: left;
+    min-height: 485px;
+    margin: 0;
+    width: 728px;
+}
+.cartones,
+.cartones>img{
+    height: auto;
+}
+.notaSencilla>h4
+{
+    float: left;
+    font-family: Helvetica Neue Condensed Bold;
+    font-size: 32px;
+    line-height: 28px;
+    margin: 18px 0px 0px 20px;
+    width: 690px;
+}
+.notaSencilla>h5
+{
+    color: #868485;
+    float: left;
+    font-family: Helvetica Neue Light;
+    font-size: 20px;
+    margin: 0px 0px 0px 21px;
+    width: 690px;
+}
+.notaSencilla>h5>a
+{
+    color: #868485;
+    font-family: Helvetica Neue Medium;
+    font-size: 20px;
+    text-decoration: none;
+}
+.notaSencilla>h5>a:hover
+{
+    text-decoration: underline;
+}
+.notaSencillaTexto
+{
+    border-top: 1px solid #fce4ec;
+    color: #4d4d4f;
+    float: left;
+    font-family: Helvetica Neue;
+    font-size: 17px;
+    margin: 18px 0px 0px 21px;
+    padding: 18px 0px 0px 0px;
+    text-align: justify;
+    width: 690px;
+}
+.cajaRedesSociales
+{
+    float: left;
+    height: 24px;
+    margin: 10px 0px 0px 21px;
+    width: 690px;
+}
+.cajaRedesElemento
+{
+    float: left;
+    margin: 0px 0px 0px 7px;
+    overflow: hidden;
+    width: 113px;
+}
+.cajaRedesFacebook
+{
+    margin: 0;
+}
+.cajaRedesTwitter
+{
+    width: 109px;
+}
+.cajaRedesGoo
+{
+    width: 74px;
+}
+.cajaHit
+{
+    background-image: url('../img/BTNPremialoConteo.png');
+    color: #4d4d4f;
+    cursor: pointer;
+    font-family: Helvetica Neue Light;
+    font-size: 11px;
+    height: 17px;
+    margin: 2.5px 0px 0px 0px;
+    padding: 2px 0px 0px 75px;
+    width: 28px;
+}
+.cajaNotaAnterior,
+.cajaNotaSiguente
+{
+    background-image: url('../img/BTNAnteriorSiguiente.png');
+    float: left;
+    height: 22px;
+    margin: 1px 0px 0px 15px;
+    width: 125px;
+}
+.cajaNotaAnterior:hover
+{
+    background-position: -126px 0px;
+}
+.cajaNotaSiguente
+{
+    background-position: -252px 0px;
+    margin: 1px 0px 0px 6px;
+}
+.cajaNotaSiguente:hover
+{
+    background-position: -378px 0px;
+}
+.numeroHits
+{
+    background-image: url('../img/BTNPremialo.png');
+    cursor: pointer;
+    float: left;
+    height: 155px;
+    margin: 25px 0px 0px 295px;
+    width: 138px;
+}
+.numeroHits:hover
+{
+    background-position: -138px 0px;
+}
+.numeroHits>p
+{
+    color: #fff;
+    font-family: Helvetica Neue Condensed Bold;
+    font-size: 30px;
+    margin: 37px 0px 0px 0px;
+    text-align: center;
+    width: 138px;
+}
+.notaSencillaEtiquetas
+{
+    float: left;
+    margin: 25px 0px 25px 21px;
+    text-align: center;
+    width: 690px;
+}
+.listaEtiquetasHeader
+{
+    font-family: Helvetica Neue Condensed Bold;
+    font-size: 17px;
+}/*
+.notaSencillaEtiquetas>p
+{
+    margin: 0 auto;
+    width: 540px;
+}*/
+.notaSencillaEtiquetas>p>a
+{
+    background-color: #f1f1f0;
+    color: #4f4d4e;
+    font-family: Helvetica Neue Light;
+    font-size: 16px;
+    float: left;
+    margin: 15px 0px 0px 10px;
+    /*min-width: 150px;*/
+    text-transform: capitalize;
+    padding: 4.5px 10px 4.5px 10px;
+}
+.notaSencillaEtiquetas>p>a:hover
+{
+    background-color: #ec497f;
+    color: #fff;
+}
+.masPremiado
+{
+    background-color: #fff;
+    height: 370px;
+}
+.masPremiado>header
+{
+    background-color: #ec5788;
+    margin: 13px 0px 0px 0px;
+    padding: 4px 0px 4px 0px;
+}
+.masPremiado>header>h2
+{
+    color: #fff;
+}
+.comentarios
+{
+    background-color: #fff;
+    border: 1px #d2d2d2 solid;
+    float: left;
+    margin: 20px 0px 0px 30px;
+    width: 728px;
+}
+.comment-reply-title
+{
+    background-color: #000;
+    color: #fff500;
+    font-family: Helvetica Neue Condensed Bold;
+    font-size: 31px;
+    line-height: 150%;
+    float: left;
+    margin: 16px 0px 0px 0px;
+    height: 50px;
+    text-align: center;
+    width: 728px;
+}
+.comment-reply-title>a,
+.comment-reply-title>small,
+#cancel-comment-reply-link
+{
+    color: #fff500;
+    font-family: Helvetica Neue Condensed Bold;
+    font-size: 31px;
+}
+#comments
+{
+    float: left;
+}
+.comment-list
+{
+    list-style: none;
+    padding: 0;
+}
+.children
+{
+    list-style: none;
+}
+.comment-author>img
+{
+    float: left;
+    height: 69px;
+    margin: 0px 22px 0px 18px;
+    width: 69px;
+}
+.comment-author>cite>a
+{
+    color: #ec4980;
+    font-family: Helvetica Neue Medium;
+    font-size: 17px;
+    font-style: normal;
+}
+.comment-meta,
+.comment-meta>a
+{
+    color: #000;
+    font-family: Helvetica Neue Medium;
+    font-size: 17px;
+    font-style: normal;
+}
+.comment-body
+{
+    margin: 9px 0px 0px 0px;
+    
+}
+.comment-body,
+.comment-body>p
+{
+    color: #353434;
+    font-family: Helvetica Neue Light;
+    font-size: 15px;
+    font-style: normal;
+}
+.reply
+{
+    text-align: right;
+}
+.comment-reply-link
+{
+    color: #b4b2b3;
+    font-family: Helvetica Neue Condensed Bold;
+    font-size: 16px;
+    margin: 0px 20px 0px 0px;
+}
+.comment-reply-link:hover
+{
+    color: #000;
+}
+
+/* Nota anterior siguiente */
+
+.contieneNotaAnterior,
+.contieneNotaSigiente
+{
+    float: left;
+    width: 355px;
+    margin: 20px 0px 0px 30px;
+}
+.contieneNotaSigiente
+{
+    margin: 20px 0px 0px 18px;
+}
+.tituloNotaAnterior
+{
+    float: left;
+    width: 355px;
+}
+
+.imagenNotaAnterior,
+.imagenNotaAnterior>a>img,
+.imagenNotaSiguiente,
+.imagenNotaSiguiente>a>img
+{
+    float: left;
+    height: 190px;
+    margin: -3px 0px 0px 0px;
+    width: 355px;
+}
+.imagenNotaAnterior>a>img,
+.imagenNotaSiguiente>a>img
+{
+    position: absolute;
+    z-index: 1;
+}
+.imagenNotaAnterior>a,
+.imagenNotaSiguiente>a,
+.tituloNotaAnterior>a
+{
+    margin: 0;
+    padding: 0;
+}
+.contieneResumenNotaAnterior,
+.contieneResumenNotaSiguiente
+{
+    background-color: #000;
+    float: left;
+    position: absolute;
+    margin: 130px 0px 0px 0px; 
+    opacity: .7;
+    text-align: center;
+    width: 355px;
+    z-index: 2;
+}
+.resumenNotaSiguiente>a,
+.resumenNotaAnterior>a
+{
+    color: #fff;
+    font-family: Helvetica Neue Condensed Bold;
+    font-size: 17px;
+}
+.resumenNotaSiguiente>a:hover,
+.resumenNotaAnterior>a:hover
+{
+    color: #fff500;
+}
+
+/* Info Autor */
+.autorNota
+{
+    background-color: #fff;
+    float: left;
+    height: auto;
+    width: 300px;
+}
+.autorNotaHeader
+{
+    background-color: #fff500;
+    float: left;
+    font-family: Helvetica Neue Condensed Bold;
+    font-size: 29px;
+    line-height: 150%;
+    padding: 0;
+    margin: 16px 0px 0px 0px;
+    height: 44px;
+    text-align: center;
+    width: 300px;
+}
+.autorNotaImg
+{
+    margin: 16px 0px 0px 0px;
+}
+.autorNotaImg,
+.entry_author_image>img
+{
+    float: left;
+    height: auto;
+    width: 77px;
+}
+.autorNotaDescripcion
+{
+    color: #4c4b4c;
+    border-bottom: 2px #fce4ec solid;
+    float: left;
+    font-family: Helvetica Italic;
+    font-size: 10px;
+    margin: 13px 0px 0px 0px;
+    padding: 0px 0px 13px 0px;
+    text-align: justify;
+    width: 300px;
+}
+.autorNotaNombre
+{
+    color: #ec497f;
+    font-family: Helvetica Neue Condensed Bold;
+    font-size: 24px;
+    margin: 16px 0px 0px 16px;
+    float: left;
+
+
+}
+.autorNotaTitulo
+{
+    color: #ec497f;
+    float: left;
+    font-family: Helvetica Neue Condensed Bold;
+    font-size: 24px;
+    margin: 16px 0px 0px 16px;
+    
+}
+.autorNotaTwitter
+{
+    float: left;
+    margin: 0px 0px 0px 16px;
+}
+
+/* Iconos Compartir */
+.shareFB
+{
+    background-image: url('../img/sharebtn.png');
+    background-position: -92px 0px;
+    cursor: pointer;
+    margin: 5px 0px 0px 0px;
+    float: left;
+    height: 45px;
+    width: 45px;
+}
+.redesShare
+{
+    background-color: #efefef;
+    border: 1px #d7d7d7 solid;
+    float: left;
+    margin: 35px 0px 0px 15px;
+    padding: 5px;
+    width: 45px;
+}
+.shareFB:hover
+{
+    background-position: -138px 0px;
+}
+.shareTW
+{
+    background-image: url('../img/sharebtn.png');
+    cursor: pointer;
+    float: left;
+    height: 45px;
+    width: 45px;
+}
+.shareTW:hover
+{
+    background-position: -46px 0px;
+}
