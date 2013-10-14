@@ -29,11 +29,9 @@
 .notaSencillaImg>img
 {
     float: left;
-    min-height: 340px;
-    max-width: 550px;
+    min-height: 485px;
     margin: 0;
-    min-width: 728px;
-    max-width: 800px;
+    width: 728px;
 }
 .cartones,
 .cartones>img{
@@ -79,19 +77,6 @@
     padding: 18px 0px 0px 0px;
     text-align: justify;
     width: 690px;
-}
-.notaSencillaTexto>p
-{
-    padding: 5px 0px 5px 0px;
-}
-.notaSencillaTexto>p>a
-{
-    color: #ec5788;
-    font-size: 18px;
-}
-.notaSencillaTexto>p>a:hover
-{
-    text-decoration: underline;
 }
 .cajaRedesSociales
 {
@@ -421,9 +406,8 @@
     color: #4c4b4c;
     border-bottom: 2px #fce4ec solid;
     float: left;
-    font-family: Helvetica;
+    font-family: Helvetica Italic;
     font-size: 10px;
-    font-style: italic;
     margin: 13px 0px 0px 0px;
     padding: 0px 0px 13px 0px;
     text-align: justify;
@@ -469,7 +453,6 @@
 {
     background-color: #efefef;
     border: 1px #d7d7d7 solid;
-    display: none;
     float: left;
     margin: 35px 0px 0px 15px;
     padding: 5px;
@@ -490,78 +473,4 @@
 .shareTW:hover
 {
     background-position: -46px 0px;
-}
-.shareGP
-{
-    background-image: url('../img/sharebtn.png');
-    background-position: -184px 0px;
-    cursor: pointer;
-    margin: 5px 0px 0px 0px;
-    float: left;
-    height: 45px;
-    width: 45px;
-}
-.shareGP:hover
-{
-    background-position: -231px 0px;
-}
-.botones
-{
-    background-color: #fff;
-    float: left;
-    padding: 13px 15px 20px 15px;
-    overflow: hidden;
-    width: 270px;
-}
-.textoMas,
-.textoMenos,
-.textoImprimir,
-.textoTwitter,
-.textoFacebook
-{
-    float: left;
-    height: 45px;
-    margin: 0px 0px 0px 15px;
-    width: 42px;
-}
-.textoMas
-{
-    background-image: url('../img/BTNAumentarLetra.png');
-    margin: 0;
-}
-.textoMas:hover
-{
-    background-image: url('../img/BTNAumentarLetraOVER.png');
-}
-.textoMenos
-{
-    background-image: url('../img/BTNReducirLetra.png');
-}
-.textoMenos:hover
-{
-    background-image: url('../img/BTNReducirLetraOVER.png');
-}
-.textoImprimir
-{
-    background-image: url('../img/BTNImprimir.png');
-}
-.textoImprimir:hover
-{
-    background-image: url('../img/BTNImprimirOVER.png');
-}
-.textoTwitter
-{
-    background-image: url('../img/BTNTwittear.png');
-}
-.textoTwitter:hover
-{
-    background-image: url('../img/BTNTwittearOVER.png');
-}
-.textoFacebook
-{
-    background-image: url('../img/BTNCompartir.png');
-}
-.textoFacebook:hover
-{
-    background-image: url('../img/BTNCompartirOVER.png');
 }

@@ -94,7 +94,7 @@ body{
     height: 55px;
     position: relative;
     width: 1105px;
-    z-index: 10;
+    z-index: 3;
 }
 .encabezado-principal img
 {
@@ -252,7 +252,7 @@ body{
 .primer-cuadro .attachment-post-thumbnail,
 .primer-cuadro img
 {
-    height: 387px;
+    min-height: 626px;
     position: absolute;
     width: 1105px;
     z-index: 2;
@@ -993,13 +993,6 @@ body{
     margin: 15px 0px 0px 0px;
     width: 300px;
 }
-.halfpageBanner
-{
-    float: left;
-    height: 600px;
-    margin: 15px 0px 0px 0px;
-    width: 300px;
-}
 .destacados
 {
     background-color: #1e1f21;
@@ -1148,7 +1141,6 @@ body{
     color: #606060;
     font-family: Helvetica Neue Condensed Bold;
     font-size: 15px;
-    line-height: 110%;
 }
 .masLeido ol li a:hover
 {
@@ -1370,8 +1362,6 @@ input[type="text"]{
     float: left;
     margin: -4px 0px 0px -25px;
     min-height: 190px;
-    max-height: 210px;
-    min-width: 300px;
 }
 .elementosTexto>a
 {
@@ -1866,7 +1856,7 @@ input[type="text"]{
     color: #ec497f;
     float: left;
     font-family: Helvetica Neue Condensed Bold;
-    font-size: 20px;
+    font-size: 23px;
     margin: 9px 0px 0px 5px;
 }
 .ordenar

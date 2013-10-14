@@ -18,7 +18,7 @@
 			<?php if($cf['Link'][0]){ ?>
 	            <iframe width="250" height="190" src="<?php echo $cf['Link'][0]; ?>" frameborder="0" ></iframe>
 			<?php } else { ?>
-				<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'listado-buscador' ); } ?>
+				<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
 			<?php } ?>
 		</a>
 			<div class="elementosTexto">

@@ -4,7 +4,6 @@
         <?php get_template_part('sidebar/box', 'banner'); ?>
     </div>
     <?php get_template_part('sidebar/autor', 'nota') ?>
-    <?php get_template_part('sidebar/botones', 'funciones') ?>
         <?php get_search_form(); ?>
         <?php get_template_part('sidebar/halfpage', 'banner'); ?>
         <?php get_template_part('sidebar/mas', 'premiados'); ?>
@@ -17,7 +16,6 @@
             </form>
         </section><!-- Termina seccion de busqueda [.search-box] -->
         <?php get_template_part('sidebar/box', 'banner'); ?>
-        <?php //get_template_part('sidebar/box', 'bannerSecundario'); ?>
         <?php get_template_part('sidebar/seccion', 'destacados'); ?>
         <?php get_template_part('sidebar/post', 'it'); ?>
         <?php get_template_part('sidebar/mas', 'leidos'); ?>

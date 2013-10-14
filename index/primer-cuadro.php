@@ -5,7 +5,7 @@
     <?php the_post(); ?>
     <section id="cuadro-<?php echo $contador; ?>" class="primer-cuadro-post <?php echo ($contador > 0)? 'primer-cuadro-post-oculto' : ''; ?>" data-active="<?php echo ($contador == 0)? 'true' : 'false'; ?>" data-cuadro="<?php echo $contador; ?>">
         <div class="primer-cuadro-img">
-            <?php if ( has_post_thumbnail() ) { the_post_thumbnail( ); } ?>
+            <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'primer-cuadro' ); } ?>
         </div>
         <div class="primer-cuadro-texto">
             <h2>
