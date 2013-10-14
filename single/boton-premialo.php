@@ -13,4 +13,8 @@
     <a href="http://www.facebook.com/sharer.php?s=100&p[url]=<?php echo get_permalink( get_the_ID() ); ?>&p[title]=<?php echo get_the_title(get_the_ID()); ?>&p[summary]=<?php echo (!empty($entrada)) ? $entrada : entradas(the_excerpt(), 1); ?>&p[images][0]=<?php echo $ruta_imagen; ?>" target="_blank" title="Compartelo en Facebook">
 		<i class="shareFB"></i>
 	</a>
+	<a href="https://plus.google.com/share?url={<?php echo $twitter_url;  ?>}" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+  		<i class="shareGP"></i>
+	</a>
 </div>

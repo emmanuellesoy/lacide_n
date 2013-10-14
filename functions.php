@@ -49,7 +49,7 @@ function register_my_menus() {
 add_action( 'init', 'register_my_menus' );
 
 
-    /* Admite thmbnails */
+    /* Admite thumbnails */
     
     /*
      *  Se activa la opción para la imagen destacada (thumbnails).
@@ -57,12 +57,13 @@ add_action( 'init', 'register_my_menus' );
 
     if ( function_exists( 'add_theme_support' ) ) {
         add_theme_support( 'post-thumbnails' );
-        set_post_thumbnail_size( 728,  728); // default Post Thumbnail dimensions   
+        set_post_thumbnail_size( 2048,  2048); // default Post Thumbnail dimensions   
     }
     
     if ( function_exists( 'add_image_size' ) ) {
         
         add_image_size( 'primer-cuadro', 1105 );
+        add_image_size( 'listado-buscador', 300 );
         
     }
     
@@ -233,4 +234,10 @@ function campos_usuario($user_contactmethods){
 
 }
 
-?>
+/* Trae post para relacionadas */
+function relacionadas($tag)
+{
+
+}
+
+ ?>

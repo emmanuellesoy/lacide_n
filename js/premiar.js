@@ -5,6 +5,7 @@ $(document).ready(function(){
         $('.numeroHits').css('background-position', '-276px');
         var iu = tp_url + '/img/BTNPremialoConteoACTIVE.png'
         $('.cajaHit').css('background-image', 'url('+iu+')');
+        $('.redesShare').css('display', 'block');
     }
 });
 
@@ -22,8 +23,10 @@ function premiar(id_post){
                 $('.numeroHits').css('background-position', '-276px');
                 $.cookie('hit', 'true', { expires: 30 });
                 $('.numeroHits').attr('data-premio', 'v');
-                    var iu = tp_url + '/img/BTNPremialoConteoACTIVE.png'
-                    $('.cajaHit').css('background-image', 'url('+iu+')');
+                var iu = tp_url + '/img/BTNPremialoConteoACTIVE.png'
+                $('.cajaHit').css('background-image', 'url('+iu+')');
+                $('.redesShare').css('display', 'block');
+
             }
         });
     }
