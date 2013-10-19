@@ -15,11 +15,7 @@
 });
 </script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.cookie.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/premiar.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/carrusel.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/single.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/index.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/category.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/general.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.sticky-kit.min.js"></script>
         <script type="text/javascript">
 
