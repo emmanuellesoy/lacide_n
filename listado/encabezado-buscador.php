@@ -24,7 +24,7 @@
 			<h6>ORDENAR</h6>
 			<p class="sort" data-sort="data-id" data-order="asc">Más recientes</p>
 			<p class="sort" data-sort="data-prize" data-order="asc">Más premiados</p>
-			<!--<p><a href="">Más comentados</a></p>-->
+			<p class="sort" data-sort="data-comments" data-order="asc">Más comentados</p>
 		</div>
 	</div>
 	<div class="resultadosencabezadoFiltrar">
@@ -57,3 +57,4 @@
 		</div>		
 	</div>
 </div>
+<?php get_template_part('listado/skyscraper', 'horizontalGrande'); ?>

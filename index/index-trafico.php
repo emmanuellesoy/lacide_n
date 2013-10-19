@@ -21,6 +21,10 @@
             <div class="trafico-post trafico-post-<?php echo $contador; ?>">
                 <?php if($contador == 0): ?>
                     <div onclick="slideTraficoIzq();" class="flechaIzquierda"></div>
+                <?php elseif($contador == 1): ?>
+                    <div onclick="slideTraficoIzq();" class="flechaDerecha"></div>
+                <?php elseif($contador == 2): ?>
+                    <div onclick="slideTraficoDer();" class="flechaIzquierda"></div>
                 <?php elseif($contador == 3): ?>
                     <div onclick="slideTraficoDer();" class="flechaDerecha"></div>
                 <?php endif; ?>

@@ -8,6 +8,7 @@
         <?php the_post(); ?>
     <div class="destacadosNota">
         <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
+        <div class="destacadosNotafondo"></div>
         <a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
             <?php the_title(); ?>
         </a>

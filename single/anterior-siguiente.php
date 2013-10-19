@@ -12,6 +12,7 @@
                 <?php echo get_the_post_thumbnail( $entrada_anterior->ID ); ?>
             </a>
             <div class="contieneResumenNotaAnterior">
+            <div class="AnteriorSiguienteFondo"></div>
             <div class="resumenNotaAnterior">
               <a href="<?php echo get_permalink( $entrada_anterior->ID ); ?>" title="<?php echo $entrada_anterior->post_title; ?>" rel="prev">
                 <?php echo $entrada_anterior->post_title; ?>
@@ -33,6 +34,7 @@
                <?php echo get_the_post_thumbnail( $siguiente_entrada->ID ); ?>
            </a>
           <div class="contieneResumenNotaSiguiente">
+            <div class="AnteriorSiguienteFondo"></div>
             <div class="resumenNotaSiguiente">
               <a href="<?php echo get_permalink( $siguiente_entrada->ID ); ?>" title="<?php echo $siguiente_entrada->post_title; ?>" rel="next">
                   <?php echo $siguiente_entrada->post_title; ?>

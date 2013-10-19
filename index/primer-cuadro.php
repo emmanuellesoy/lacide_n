@@ -8,6 +8,7 @@
             <?php if ( has_post_thumbnail() ) { the_post_thumbnail( ); } ?>
         </div>
         <div class="primer-cuadro-texto">
+             <div class="fondoTextos"></div>
             <h2>
                 <a href="<?php echo get_permalink(); ?>" title="Leer más sobre <?php the_title(); ?>">
                     <?php the_title(); ?>
@@ -15,10 +16,10 @@
             </h2>
         </div>
         <nav class="primer-cuadro-post-nav">
-            <div class="primer-cuadro-post-nav-bolita primer-cuadro-post-nav-bolita-uno <?php echo ($contador == 0)? 'primer-cuadro-post-nav-bolita-activa' : ''; ?>"></div>
-            <div class="primer-cuadro-post-nav-bolita <?php echo ($contador == 1)? 'primer-cuadro-post-nav-bolita-activa' : ''; ?>"></div>
-            <div class="primer-cuadro-post-nav-bolita <?php echo ($contador == 2)? 'primer-cuadro-post-nav-bolita-activa' : ''; ?>"></div>
-            <div class="primer-cuadro-post-nav-bolita <?php echo ($contador == 3)? 'primer-cuadro-post-nav-bolita-activa' : ''; ?>"></div>
+            <div onclick="stopCount('0');" class="primer-cuadro-post-nav-bolita primer-cuadro-post-nav-bolita-uno <?php echo ($contador == 0)? 'primer-cuadro-post-nav-bolita-activa' : ''; ?>"></div>
+            <div onclick="stopCount('1');" class="primer-cuadro-post-nav-bolita <?php echo ($contador == 1)? 'primer-cuadro-post-nav-bolita-activa' : ''; ?>"></div>
+            <div onclick="stopCount('2');" class="primer-cuadro-post-nav-bolita <?php echo ($contador == 2)? 'primer-cuadro-post-nav-bolita-activa' : ''; ?>"></div>
+            <div onclick="stopCount('3');" class="primer-cuadro-post-nav-bolita <?php echo ($contador == 3)? 'primer-cuadro-post-nav-bolita-activa' : ''; ?>"></div>
         </nav>
     </section>
     <?php $contador++; ?>

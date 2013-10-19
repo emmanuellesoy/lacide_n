@@ -8,7 +8,10 @@
     <?php while ( have_posts() ): ?>
         <?php the_post(); ?>
     <div class="fronteraNota">
-        <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
+        <div class="fronteraNotaImg">
+            <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
+        </div>  
+        <div class="fronteraNotaFondo"></div>
         <a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
             <?php the_title(); ?>
         </a>

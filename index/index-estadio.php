@@ -17,7 +17,8 @@
         <?php the_post(); ?>
         <?php if($contador == 1){ ?>
     <div class="estadioNotaReciente">
-            <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>        
+            <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>     
+            <div class="fondoTituloTransparencia"></div>   
         <a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
             <?php the_title(); ?>
         </a>

@@ -243,6 +243,7 @@
     margin: 16px 0px 0px 0px;
     height: 50px;
     text-align: center;
+    text-transform: uppercase;
     width: 728px;
 }
 .comment-reply-title>a,
@@ -359,14 +360,33 @@
     margin: 0;
     padding: 0;
 }
-.contieneResumenNotaAnterior,
-.contieneResumenNotaSiguiente
+.AnteriorSiguienteFondo,
+.resumenNotaAnterior,
+.resumenNotaSiguiente
 {
     background-color: #000;
     float: left;
+    height: 57px;
+    position: absolute;
+    width: 355px;
+    opacity: .7;
+    z-index: 1;
+}
+.resumenNotaAnterior,
+.resumenNotaSiguiente
+{
+    background-color: transparent;
+    opacity: 1;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+}
+.contieneResumenNotaAnterior,
+.contieneResumenNotaSiguiente
+{
+    float: left;
     position: absolute;
     margin: 130px 0px 0px 0px; 
-    opacity: .7;
     text-align: center;
     width: 355px;
     z-index: 2;

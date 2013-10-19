@@ -16,7 +16,9 @@
     <?php while ( have_posts() ): ?>
         <?php the_post(); ?>
     <div class="kiosco-post <?php echo ($contador == 1) ? 'kiosco-post-primero' : '' ?>">
-        <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
+        <div class="kioco-postImg">
+            <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
+        </div>
         <div class="kiosco-post-titulo-fondo"></div>
         <div class="kiosco-post-titulo">
             <a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">

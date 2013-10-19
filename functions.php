@@ -139,7 +139,7 @@ function traer_mas()
         }
     ?>
     <?php $cf = get_post_custom(); ?>
-    <div data-id="<?php the_ID(); ?>" data-prize="<?php echo $cf['prize'][0]; ?>" class="resultadosElemento mix <?php echo $categorias; ?>">
+    <div data-id="<?php the_ID(); ?>" data-comments="<?php echo get_comments_number(); ?>" data-prize="<?php echo $cf['prize'][0]; ?>" class="resultadosElemento mix <?php echo $categorias; ?>">
         <a class="resultadosElementoImagen" href="<?php echo get_permalink(); ?>" title="Leer más sobre <?php the_title(); ?>">
             <?php if($cf['Link'][0]){ ?>
                 <iframe width="250" height="190" src="<?php echo $cf['Link'][0]; ?>" frameborder="0" ></iframe>
@@ -160,12 +160,10 @@ function traer_mas()
             </div>
         </div>
         <div class="datosRedes">
-            <!--
             <div class="datosRedesElemento">
                 <div class="comments"></div>
-                <?php echo get_comments_number(); ?>
+                <p><?php echo get_comments_number(); ?></p>
             </div>
-            -->
             <div class="datosRedesElemento">
                 <div class="punchs"></div>
                 <p><?php echo $cf['prize'][0];  ?></p> 
