@@ -16,7 +16,15 @@
                 <input type="text" class="field" name="s" id="s" placeholder="Buscar" value="<?php the_search_query(); ?>"/>
             </form>
         </section><!-- Termina seccion de busqueda [.search-box] -->
-        <?php get_template_part('sidebar/box', 'banner'); ?>
+        <?php $selector = rand(0, 2); ?>
+        <?php
+            if($selector == 1){
+                get_template_part('sidebar/anuncios', 'especiales');
+            } else { 
+                get_template_part('sidebar/box', 'banner');
+            }
+        ?>
+        <?php //get_template_part('sidebar/box', 'banner'); ?>
         <?php //get_template_part('sidebar/box', 'bannerSecundario'); ?>
         <?php get_template_part('sidebar/seccion', 'destacados'); ?>
         <?php get_template_part('sidebar/post', 'it'); ?>

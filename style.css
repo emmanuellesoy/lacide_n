@@ -155,7 +155,7 @@ body{background-image:url('img/textureBlack.png');}
 .butaca-redes-elemento{float:left;height:40px;width:100px;}
 .butaca-redes-elemento-twitter{margin:0px 0px 0px 20px;}
 .barra-lateral{float:right;margin:0px 30px 0px 0px;width:300px;}
-.box-banner{float:left;height:250px;margin:15px 0px 0px 0px;width:300px;}
+.box-banner{float:left;height:250px;margin:15px 0px 0px 0px;overflow:hidden;width:300px;}
 .halfpageBanner{float:left;height:600px;margin:15px 0px 0px 0px;width:300px;}
 .destacados{background-color:#1e1f21;float:left;margin:15px 0px 0px 0px;padding:0px 0px 18px 0px;width:300px;}
 .destacadosEncabezado{float:left;text-align:center;margin:17px 0px 0px 0px;width:300px;}
