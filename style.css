@@ -112,7 +112,7 @@ body{background-image:url('img/textureBlack.png');}
 .kiosco-post{float:left;height:197px;margin:19px 0px 0px 22px;width:216px;}
 .kiosco-post-primero{margin:19px 0px 0px 18px;}
 .kioco-postImg{float:left;height:197px;position:absolute;width:216px;overflow:hidden;z-index:1;}
-.kiosco-post img{float:left;min-height:197px;margin:-35px 0px 0px -108px;width:432px;}
+.kiosco-post img{float:left;min-height:197px;max-height:250px;margin:-35px 0px 0px -59px;width:324px;}
 .kiosco-post-titulo{float:left;height:64px;position:absolute;text-align:center;margin:133px 0px 0px 10px;width:196px;z-index:3;}
 .kiosco-post-titulo a{color:#fff;float:left;font-family:Helvetica Neue Condensed Bold;font-size:15px;text-align:center;width:196px;}
 .kiosco-post-titulo a:hover{color:#ec497f;}
@@ -346,6 +346,8 @@ input[type="text"]{color:#000;float:left;border-color:#ebebeb;border-style:solid
 .notaSencillaTexto>p{padding:5px 0px 5px 0px;}
 .notaSencillaTexto>p>a{color:#ec5788;font-size:18px;}
 .notaSencillaTexto>p>a:hover{text-decoration:underline;}
+.notaSencillaTexto>p>a>img{display:block;margin:10px auto;max-width:700px;border:1px #d2d2d2 solid;padding:5px;}
+.notaSencillaTexto>p>iframe{width:690px;height:390px;}
 .cajaRedesSociales{float:left;height:24px;margin:10px 0px 0px 21px;width:690px;}
 .cajaRedesElemento{float:left;margin:0px 0px 0px 7px;overflow:hidden;width:113px;}
 .cajaRedesFacebook{margin:0;}
@@ -414,7 +416,7 @@ input[type="text"]{color:#000;float:left;border-color:#ebebeb;border-style:solid
 .autorNotaImg{margin:16px 0px 0px 0px;}
 .autorNotaImg,
 .entry_author_image>img{float:left;height:auto;width:77px;}
-.autorNotaDescripcion{color:#4c4b4c;border-bottom:2px #fce4ec solid;float:left;font-family:Helvetica;font-size:10px;font-style:italic;margin:13px 0px 0px 0px;padding:0px 0px 13px 0px;text-align:justify;width:300px;}
+.autorNotaDescripcion{color:#4c4b4c;border-bottom:2px #fce4ec solid;float:left;font-family:Helvetica;font-size:12px;font-style:italic;margin:13px 0px 0px 0px;padding:0px 0px 13px 0px;text-align:justify;width:300px;}
 .autorNotaNombre{color:#ec497f;font-family:Helvetica Neue Condensed Bold;font-size:24px;margin:16px 0px 0px 16px;float:left;}
 .autorNotaTitulo{color:#ec497f;float:left;font-family:Helvetica Neue Condensed Bold;font-size:24px;margin:16px 0px 0px 16px;}
 .autorNotaTwitter{float:left;margin:0px 0px 0px 16px;}
